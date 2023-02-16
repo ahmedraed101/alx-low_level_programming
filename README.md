@@ -1,6 +1,6 @@
 `gcc -E file.c -o outfile.i` -> it does only the first step of the compilation (the preproccessing 'removes comments and the .h files) the out file is .i
 
-`gcc -s file.c -o outfile.s` -> it moves to the second step of the compilation (compiling c code to assembly code) the out file is .s
+`gcc -S file.c -o outfile.s` -> it moves to the second step of the compilation (compiling c code to assembly code) the out file is .s
 
 `gcc -c file.c -o outfile.o` -> it moves to the third step of the compilation (the assembler takes the assembly code and return an object code) the out file is .o  
 
