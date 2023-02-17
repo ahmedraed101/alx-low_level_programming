@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
- * main - prints the alphabet in lower
+ * main - prints the alphabet in lower and upper
  *
  * Return: Always 0 (sucess)
 */
