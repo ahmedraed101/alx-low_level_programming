@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - prints the lower case alphabet chars 10 times
+ * _islower - check letter to be lowercase
  *@c: The letter to be checked
  *
  * Return: Always 1 if c is lowercase or 0 otherwise
