@@ -6,9 +6,10 @@
  * Returns: Always 0
 */
 
-int print_alphabet()
+int print_alphabet(void)
 {
 	char letter;
+
 	for (letter = 97; letter < 123; ++letter)
 		_putchar(letter);
 	_putchar('\n');
