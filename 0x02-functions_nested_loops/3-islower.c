@@ -2,6 +2,7 @@
 
 /**
  * _islower - prints the lower case alphabet chars 10 times
+ *@c: The letter to be checked
  *
  * Return: Always 1 if c is lowercase or 0 otherwise
 */
