@@ -1,20 +1,13 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * fizz_buzz - print numbers 1-100 if n%3=0 Fizz n%5-0 Buzz or both
- * main - runs fizz_buzz
+ * main - print numbers 1-100 if n%3=0 Fizz n%5-0 Buzz or both
  *
- * Return: no return
+ *
+ * Return: Always 0
 */
 
 int main(void)
-{
-	fizz_buzz();
-	return (0);
-}
-
-void fizz_buzz(void)
 {
 	int i;
 
@@ -31,4 +24,5 @@ void fizz_buzz(void)
 		printf(" ");
 	}
 	printf("\n");
+	return (0);
 }
