@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * _puts - this function print string followd by \n
 * @str: the string to be printed
