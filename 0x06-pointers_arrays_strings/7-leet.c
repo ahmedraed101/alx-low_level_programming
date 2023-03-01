@@ -10,7 +10,7 @@ char *leet(char *a)
 	int i, n;
 	char leet[8] = {'o', 'l', '?', 'e', 'a', '?', '?', 't'};
 
-	while (a[i] != '\0')
+	while (a[i])
 	{
 		for (n = 0; n < 8; n++)
 			if (a[i] == leet[n] || a[i] + 32 == leet[n])
