@@ -1,5 +1,5 @@
 /**
-* _strcat - concat to strings
+* _strcat - concat two strings
 * @dest: the first to string to chain with @src
 * @src: the second string to chain on @dest
 *
