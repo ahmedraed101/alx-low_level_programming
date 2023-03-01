@@ -1,11 +1,11 @@
 /**
-* string_toupper - convert lowercase letters to uppercase
+* leet - a function that converts some letter to numbers
 * @a: the arary
 *
-* Return: the new upper case string
+* Return: new number coded string
 */
 
-char *string_toupper(char *a)
+char *leet(char *a)
 {
 	int i;
 
@@ -18,7 +18,7 @@ char *string_toupper(char *a)
 		else if (a[i] == 'o' || a[i] == 'O')
 			a[i] = '0';
 		else if (a[i] == 't' || a[i] == 'T')
-			a[i] == '7';
+			a[i] = '7';
 		else if (a[i] == 'l' || a[i] == 'L')
 			a[i] = '1';
 	}
