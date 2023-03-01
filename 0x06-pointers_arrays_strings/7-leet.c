@@ -7,35 +7,16 @@
 
 char *leet(char *a)
 {
-	int i;
+	int i, n;
+	char leet[5] = {'a', 'e', 'o', 't', 'l'};
+	char nums[5] = {'4', '3', '0', '7', '1'};
 
-	for (i = 0; a[i] != '\0'; i++)
+	while (a[i] != '\0')
 	{
-		if (a[i] == 'a' || a[i] == 'A')
-		{
-			a[i] = '4';
-			continue;
-		}
-		if (a[i] == 'e' || a[i] == 'E')
-		{
-			a[i] = '3';
-			continue;
-		}
-		if (a[i] == 'o' || a[i] == 'O')
-		{
-			a[i] = '0';
-			continue;
-		}
-		if (a[i] == 't' || a[i] == 'T')
-		{
-			a[i] = '7';
-			continue;
-		}
-		if (a[i] == 'l' || a[i] == 'L')
-		{
-			a[i] = '1';
-			continue;
-		}
+		for (n = 0; n < 5; n++)
+			if (a[i] == leet[n] || a[i] - 32 == leet[n])
+				a[i] = nums[n];
+		i++;
 	}
 	return (a);
 }
