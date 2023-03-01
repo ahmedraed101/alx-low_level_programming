@@ -13,7 +13,7 @@ char *leet(char *a)
 	while (a[i] != '\0')
 	{
 		for (n = 0; n < 8; n++)
-			if (a[i] == leet[n] || a[i] - 32 == leet[n])
+			if (a[i] == leet[n] || a[i] + 32 == leet[n])
 				a[i] = n + '0';
 		i++;
 	}
