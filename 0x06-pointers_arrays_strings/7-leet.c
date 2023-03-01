@@ -8,14 +8,13 @@
 char *leet(char *a)
 {
 	int i, n;
-	char leet[5] = {'a', 'e', 'o', 't', 'l'};
-	char nums[5] = {'4', '3', '0', '7', '1'};
+	char leet[8] = {'o', 'l', '?', 'e', 'a', '?', '?', 't'};
 
 	while (a[i] != '\0')
 	{
-		for (n = 0; n < 5; n++)
+		for (n = 0; n < 8; n++)
 			if (a[i] == leet[n] || a[i] - 32 == leet[n])
-				a[i] = nums[n];
+				a[i] = n + '0';
 		i++;
 	}
 	return (a);
