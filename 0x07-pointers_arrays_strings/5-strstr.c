@@ -21,12 +21,12 @@ char *_strstr(char *haystack, char *needle)
 			for (k = 0; needle[k] != '\0'; k++)
 			{
 				match = 1;
-				j++;
-				if (haystack[j] != needle[k])
+				if (haystack[j] != needle[k] || haystack[j] == '\0')
 				{
 					match = 0;
 					break;
 				}
+				j++;
 			}
 		}
 		if (match == 1)
