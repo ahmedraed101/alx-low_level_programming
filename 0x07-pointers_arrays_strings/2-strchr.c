@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 /**
 * _strchr - finds the first occurrence of charcter c in string s
 * @s: the string to search for char c
