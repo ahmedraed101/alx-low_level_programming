@@ -13,3 +13,6 @@
 
 - 3-strspn.c:
 	function that gets the length of a prefix substring (strspn clone)
+
+- 4-strpbrk.c:
+	function that searches a string for any of a set of bytes (strpbrk clone)
