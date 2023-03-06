@@ -19,3 +19,6 @@
 
 - 5-strstr.c:
 	function that finds the first occurrence of the substring (strstr clone)
+
+- 7-print_chessboard.c:
+	function that prints the chessboard
