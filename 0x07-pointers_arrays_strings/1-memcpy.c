@@ -4,7 +4,7 @@
 * @src: the source array to copy into dest
 * @n: the limit of the bytes to copy
 *
-* Return: pointer to the new array
+* Return: pointer to the dest array
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)

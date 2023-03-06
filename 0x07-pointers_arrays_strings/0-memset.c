@@ -4,7 +4,7 @@
 * @b: the constant to fill the array with
 * @n: the limit of the bytes of the array
 *
-* Return: pointer to the new array
+* Return: pointer to the array
 */
 
 char *_memset(char *s, char b, unsigned int n)
