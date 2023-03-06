@@ -10,3 +10,6 @@
 
 - 2-strchr.c:
 	function that locates a character in a string (strchr clone)
+
+- 3-strspn.c:
+	function that gets the length of a prefix substring (strspn clone)
