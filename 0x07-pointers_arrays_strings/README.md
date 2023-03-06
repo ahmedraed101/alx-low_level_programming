@@ -16,3 +16,6 @@
 
 - 4-strpbrk.c:
 	function that searches a string for any of a set of bytes (strpbrk clone)
+
+- 5-strstr.c:
+	function that finds the first occurrence of the substring (strstr clone)
