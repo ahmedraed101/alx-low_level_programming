@@ -13,3 +13,6 @@
 
 - 3-factorial.c:
 	recursion function that gives the factorial of a number
+
+- 4-pow_recursion.c:
+	recursion function that gice the value of X raised to the power of Y
