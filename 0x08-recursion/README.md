@@ -16,3 +16,6 @@
 
 - 4-pow_recursion.c:
 	recursion function that gice the value of X raised to the power of Y
+
+- 5-sqrt_recursion.c:
+	recursion function that give the square root of a given number
