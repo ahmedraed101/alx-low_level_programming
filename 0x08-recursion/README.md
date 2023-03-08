@@ -10,3 +10,6 @@
 
 - 2-strlen_recursion.c:
 	recursion function that gets the length of the string
+
+- 3-factorial.c:
+	recursion function that gives the factorial of a number
