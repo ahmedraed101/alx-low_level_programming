@@ -7,3 +7,6 @@
 
 - 1-print_rev_recursion.c:
 	prints a string in reverse using recursion
+
+- 2-strlen_recursion.c:
+	recursion function that gets the length of the string
