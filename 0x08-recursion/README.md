@@ -19,3 +19,6 @@
 
 - 5-sqrt_recursion.c:
 	recursion function that give the square root of a given number
+
+- 6-is_prime_number.c:
+	check if a number is prime or not
