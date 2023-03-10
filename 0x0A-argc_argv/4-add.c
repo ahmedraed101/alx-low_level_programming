@@ -12,7 +12,8 @@
 
 int main(int argc, char *argv[])
 {
-	int sum, i, k;
+	int i;
+	unsigned int sum, k;
 	char *e;
 
 	sum = 0;
@@ -37,5 +38,6 @@ int main(int argc, char *argv[])
 	else
 	{
 		printf("0\n");
+		return (0);
 	}
 }
