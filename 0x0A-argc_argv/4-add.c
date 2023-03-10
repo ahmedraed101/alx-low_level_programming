@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * main - multiplies two numbers
+ * main - add numbers
  * @argc: argument count
  * @argv: argument vector
  *
