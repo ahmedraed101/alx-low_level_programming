@@ -1,3 +1,4 @@
+int _sqrt(int, int);
 /**
 * _sqrt_recursion - give the square root of n
 * @n: int number
