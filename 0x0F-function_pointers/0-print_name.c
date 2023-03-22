@@ -1,4 +1,4 @@
-
+#include "function_pointers.h"
 /**
  * print_name - prints a given string
  * @name: a array of char
