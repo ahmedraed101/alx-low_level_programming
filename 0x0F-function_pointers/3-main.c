@@ -1,6 +1,7 @@
 #include "3-calc.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - runs the operation given onto two numbers
@@ -25,7 +26,7 @@ int main(int argc, char **argv)
 	op = argv[2];
 	b = atoi(argv[3]);
 
-	if (b == 0 && (op ==  "/" || op == "%"))
+	if (b == 0 && (strcmp(op,  "/") == 0 || strcmp(op, "%") == 0))
 	{
 		printf("Error\n");
 		return (100);
@@ -38,6 +39,6 @@ int main(int argc, char **argv)
 		return (99);
 	}
 	result = f(a, b);
-	printf("%d", result);
+	printf("%d\n", result);
 	return (0);
 }
