@@ -28,8 +28,12 @@ int main(int argc, char **argv)
 
 	for (i = 0; i < bytes; i++)
 	{
-		printf("%02hhx", opcodes[i]);
+		if (i == bytes - 1)
+		{
+			printf("%02hhx\n", opcodes[i]);
+			break;
+		}
+		printf("%02hhx ", opcodes[i]);
 	}
-	printf("\n");
 	return (0);
 }
