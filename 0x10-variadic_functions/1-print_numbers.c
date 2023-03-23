@@ -20,8 +20,9 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		sep = malloc(sizeof(char) * strlen(separator));
 		if (sep == NULL)
-			return;
-		strcpy(sep, separator);
+			sep= "";
+		else
+			strcpy(sep, separator);
 	}
 	else
 		sep = "";
