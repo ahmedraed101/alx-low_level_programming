@@ -9,14 +9,14 @@
 
 size_t print_list(const list_t *head)
 {
-	size_t i = 0;
+	unsigned int i = 0;
 
 	while (head != NULL)
 	{
 		if (head->str == NULL)
 			printf("[0] (nill)\n");
 		else
-			printf("[%u] %s\n", head->len, head->str);
+			printf("[%d] %s\n", head->len, head->str);
 		head = head->next;
 		i++;
 	}
