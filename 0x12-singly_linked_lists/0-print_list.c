@@ -2,14 +2,15 @@
 
 /**
  * print_list - prints a linked list
- * @h: a pointer the head node
+ * @head: a pointer the head node
  *
  * Return: the number of nodes
  */
 
-size_t print_list(const list_t *h)
+size_t print_list(const list_t *head)
 {
-	unsigned int i = 0
+	unsigned int i = 0;
+
 	while (head != NULL)
 	{
 		if (head->str == NULL)
