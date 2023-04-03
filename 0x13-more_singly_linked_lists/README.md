@@ -16,3 +16,6 @@
 
 - 4-free_listint.c:
 	a function that frees a listint_t list.
+
+- 5-free_listint2.c:
+	a function that frees a listint_t list.
