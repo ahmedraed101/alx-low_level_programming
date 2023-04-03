@@ -31,3 +31,6 @@
 
 - 9-insert_nodeint.c:
 	a function that inserts a new node at given position.
+
+- 10-delete_nodeint.c:
+	a function that deletes the node at index of a listint_t linked list.
