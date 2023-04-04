@@ -34,3 +34,6 @@
 
 - 10-delete_nodeint.c:
 	a function that deletes the node at index of a listint_t linked list.
+
+- 100-reverse_listint.c:
+	a function that reverses a listint_t linked list.
