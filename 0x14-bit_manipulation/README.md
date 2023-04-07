@@ -7,3 +7,7 @@
 
 - 1-print_binary.c:
 	a function that prints the binary representation of a number.
+
+- 2-get_bit.c:
+	a functoin that returns the value of a bit at a given index.
+
