@@ -11,3 +11,5 @@
 - 2-get_bit.c:
 	a functoin that returns the value of a bit at a given index.
 
+- 3-set_bit.c:
+	a function that sets the value of a bit of 1 at a given index.
