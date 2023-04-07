@@ -13,3 +13,6 @@
 
 - 3-set_bit.c:
 	a function that sets the value of a bit of 1 at a given index.
+
+- 4-clear_bit.c:
+	a function that sets the value of a bit to 0 at a given index.
