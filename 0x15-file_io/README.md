@@ -10,3 +10,6 @@
 
 - 2-append_text_to_file.c:
 	a function that appends text at the end of a file.
+
+- 3-cp.c:
+	copies file `cp file_from file_to`
