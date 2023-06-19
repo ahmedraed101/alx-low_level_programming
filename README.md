@@ -5,4 +5,3 @@
 `gcc -c file.c -o outfile.o` -> it moves to the third step of the compilation (the assembler takes the assembly code and return an object code) the out file is .o  
 
 `gcc file.c -o outfile.exe` -> it does all the full steps of the compilation process (the last step is that the linker linkes the object code with the libraries) the out file is and excutable file
-edit
