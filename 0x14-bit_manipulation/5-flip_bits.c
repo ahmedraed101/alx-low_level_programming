@@ -10,7 +10,7 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int index = (sizeof(int) * 8)-1, bit_count = 0;
+	int index = (sizeof(int) * 8) - 1, bit_count = 0;
 	unsigned long int current;
 	unsigned long int special = n ^ m;
 
@@ -21,5 +21,5 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 			bit_count++;
 		index--;
 	}
-	return bit_count;
+	return (bit_count);
 }
