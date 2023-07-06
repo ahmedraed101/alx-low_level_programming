@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * set_bit - a function that allow you to set a bit at certain index to one
  * @n: the number to change it's bits
  * @index: the index of the bit to change
