@@ -11,13 +11,14 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int filep, len, wr_letters;
+	int filep, len = 0, wr_letters;
 
 	if (filename == NULL)
 		return (-1);
 
 	if (text_content != NULL)
-		len = _strlen(text_content);
+		while (text_content[len])
+			len++;
 
 	filep = open(filename, O_WRONLY | O_CREAT | O_TRUNC | O_EXCL, 0600);
 	if (filep == -1)
